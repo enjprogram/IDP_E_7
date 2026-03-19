@@ -28,83 +28,29 @@ Each service runs in its own **isolated virtual environment**.
 
 ---
 
-## Training the Models
-
-Both models are pre-trained and ready to use. To retrain:
-
-**NLP (BERT) model:**
-```bash
-cd fastapi
-uv run python scripts/train.py
-```
-
-**CNN model:**
-```bash
-cd fastapi
-jupyter nbconvert --to notebook --execute cnn_book.ipynb --output executed_output.ipynb
-```
-
-
-## Running the Application without Docker locally
-
-Open four terminal windows and run each service:
-
-### 1 — Backend API
-```bash
-cd fastapi
-.venv\Scripts\activate
-uvicorn app:app --host 0.0.0.0 --port 8000 --reload
-```
-
-API available at:
-- Swagger UI → http://127.0.0.1:8000/docs
-- ReDoc → http://127.0.0.1:8000/redoc
-- Health check → http://127.0.0.1:8000/health
-
-### 2 — Frontend Dashboard
-```bash
-cd streamlitapi
-.venv\Scripts\activate
-streamlit run streamlit_app.py
-```
-
-Dashboard available at → http://localhost:8502
-
-### 3 — TensorBoard
-```bash
-cd fastapi
-python -m tensorboard.main --logdir logs/
-```
-
-TensorBoard available at → http://localhost:6006
-
-### 4 — MLflow UI
-```bash
-cd fastapi
-uv run mlflow ui --backend-store-uri mlflows_runs/
-```
-
-MLflow available at → http://localhost:5000
-
 ### Docker
-
-# Build and start
-docker-compose up --build -d
-# Stop
-docker-compose down
-# Logs
-docker-compose logs -f
-# Status
-docker-compose ps
-
-# Collect logs
-docker-compose logs backend > backend_logs.txt
-
-
-## Running the Application with Docker
 
 ## Running the Application with Docker/Nginx
 ```
 docker-compose up --build -d
+docker-compose -d mlflow tensorboard # start mlflow and tensorboard containers
+
+docker-compose run --rm backend uv run python scripts/train.py # train nlp model
+docker-compose run --rm backend uv jupyter nbconvert --to notebook --execute cnn_book.ipynb --output executed_output.ipynb # train cnn model
+
+docker-compose up -d # launch the remaining containers
+
 .\start.ps1
 ```
+
+### Access the services
+
+| Service | URL | Notes |
+|---|---|---|
+| Frontend (Streamlit) | http://localhost:80 | Main dashboard |
+| Backend API (Swagger) | http://localhost:8000/docs | FastAPI interactive docs |
+| Backend API (ReDoc) | http://localhost:8000/redoc | |
+| Backend health check | http://localhost:8000/health | |
+| MLflow UI | http://localhost:5000 | Experiment tracking & model registry |
+| MLflow UI | http://localhost:5000/#/models | model registry |
+| TensorBoard | http://localhost:6006 | Training logs & metrics |
