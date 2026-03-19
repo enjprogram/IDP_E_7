@@ -87,15 +87,6 @@ uv run mlflow ui --backend-store-uri mlflows_runs/
 MLflow available at → http://localhost:5000
 
 ### Docker
-chmod +x run.sh       # make the file executable
-bash run.sh build-start
-./run.sh build        # build images
-./run.sh start        # start containers
-./run.sh build-start  # build + start together (most common)
-./run.sh stop         # stop everything
-./run.sh logs         # stream live logs
-./run.sh restart      # rebuild and restart
-./run.sh status       # see running containers
 
 # Build and start
 docker-compose up --build -d
