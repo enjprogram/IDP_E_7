@@ -104,5 +104,7 @@ docker-compose logs backend > backend_logs.txt
 ## Running the Application with Docker
 
 ## Running the Application with Docker/Nginx
+```
 docker-compose up --build -d
 .\start.ps1
+```
