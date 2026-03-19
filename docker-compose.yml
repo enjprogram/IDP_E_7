@@ -1,0 +1,129 @@
+services:
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - "80:80"       # Streamlit
+      - "8000:8000"   # FastAPI
+      - "5000:5000"   # MLflow
+      - "6006:6006"   # TensorBoard
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/.htpasswd:/etc/nginx/.htpasswd
+    depends_on:
+      - backend
+      - frontend
+      - mlflow
+      - tensorboard
+    networks:
+      - app-network
+
+  backend:
+    build: ./fastapi
+    container_name: fastapi-backend
+    # expose is for nginx procies and ports - for Docker only
+    expose:
+      - "8000"
+#    ports:
+#      - "8000:8000"
+    depends_on:
+      - mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - CNN_MODEL_NAME=cnn-species-classifier
+      - CNN_MODEL_STAGE=Production
+      - BERT_MODEL_NAME=bert-ticket-classifier
+      - BERT_MODEL_STAGE=Production
+      - NER_ANNOTATIONS_PATH=data/ner_annotations.jsonl
+      - MLFLOW_ARTIFACT_UPLOAD_DOWNLOAD_TIMEOUT=300
+      - MLFLOW_HTTP_REQUEST_TIMEOUT=300
+    volumes:
+      - ./fastapi/data:/app/data              # NER annotations + label files still needed
+      - ./fastapi/logs:/app/logs              # TensorBoard log writing
+      - ./fastapi/nlp:/app/nlp                # NLP service modules
+      # - ./fastapi/exported_model:/app/exported_model  # NOT needed — loaded from MLflow
+      # - ./fastapi/models:/app/models                  # NOT needed — loaded from MLflow
+      # - ./fastapi/scripts:/app/scripts                # NOT needed at runtime
+      - ./fastapi/mlflow_runs:/app/mlflow_runs  # MLflow artifact cache
+      - ./mlflow_cache:/root/.mlflow_cache    # cache downloaded models
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 300s    # 5 minutes for model download on first start
+
+  frontend:
+    build: ./streamlitapi
+    container_name: streamlit-frontend
+# expose is for nginx procies
+    expose:
+      - "8501"
+#    ports:
+#      - "8501:8501"
+    depends_on:
+      - backend
+    environment:
+      - API_URL=http://backend:8000
+      - FASTAPI_BASE=/app/fastapi
+      - TB_HOST=http://tensorboard:6006
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    volumes:
+      - ./fastapi/data:/app/fastapi/data                        # model insights charts + registry
+      - ./fastapi/logs:/app/fastapi/logs                        # TensorBoard log reading
+      - ./fastapi/mlflow_runs:/app/fastapi/mlflow_runs          # MLflow artifact access
+      # - ./fastapi/exported_model:/app/fastapi/exported_model  # NOT needed — from MLflow
+      # - ./fastapi/models:/app/fastapi/models                  # NOT needed — from MLflow
+    networks:
+      - app-network
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+    container_name: mlflow
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+# expose is for nginx proxies only
+    expose:
+      - "5000"
+#    ports:
+#      - "5000:5000"
+    volumes:
+      - ./fastapi/mlflow_runs:/mlflow
+#----for Docker deployment alone use the following for allowed-hosts else the below is for nginx
+#     --allowed-hosts "*"
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri /mlflow
+      --artifacts-destination /mlflow/artifacts
+      --serve-artifacts
+      --allowed-hosts "*"
+#      --allowed-hosts mlflow,localhost,nginx,streamlit-frontend,fastapi-backend
+    networks:
+      - app-network
+
+  tensorboard:
+    image: python:3.11-slim
+    container_name: tensorboard
+# expose is for nginx proxies
+    expose:
+      - "6006"
+#    ports:
+#      - "6006:6006"
+    volumes:
+      - ./fastapi/logs:/logs             # reads training logs
+    entrypoint: >
+      bash -c "pip install tensorboard -q &&
+      tensorboard --logdir=/logs --host=0.0.0.0 --port=6006"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
