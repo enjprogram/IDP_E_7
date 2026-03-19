@@ -1,0 +1,401 @@
+ticket_id,category
+TKT-0001,Account
+TKT-0002,Product Issue
+TKT-0003,Other
+TKT-0004,Account
+TKT-0005,Account
+TKT-0006,Refund
+TKT-0007,Refund
+TKT-0008,Product Issue
+TKT-0009,Other
+TKT-0010,Account
+TKT-0011,Delivery
+TKT-0012,Refund
+TKT-0013,Account
+TKT-0014,Product Issue
+TKT-0015,Delivery
+TKT-0016,Refund
+TKT-0017,Product Issue
+TKT-0018,Account
+TKT-0019,Product Issue
+TKT-0020,Account
+TKT-0021,Account
+TKT-0022,Delivery
+TKT-0023,Account
+TKT-0024,Delivery
+TKT-0025,Refund
+TKT-0026,Other
+TKT-0027,Account
+TKT-0028,Product Issue
+TKT-0029,Product Issue
+TKT-0030,Delivery
+TKT-0031,Account
+TKT-0032,Other
+TKT-0033,Product Issue
+TKT-0034,Refund
+TKT-0035,Delivery
+TKT-0036,Account
+TKT-0037,Account
+TKT-0038,Other
+TKT-0039,Other
+TKT-0040,Other
+TKT-0041,Other
+TKT-0042,Refund
+TKT-0043,Delivery
+TKT-0044,Refund
+TKT-0045,Delivery
+TKT-0046,Refund
+TKT-0047,Account
+TKT-0048,Other
+TKT-0049,Refund
+TKT-0050,Other
+TKT-0051,Other
+TKT-0052,Delivery
+TKT-0053,Delivery
+TKT-0054,Other
+TKT-0055,Refund
+TKT-0056,Account
+TKT-0057,Account
+TKT-0058,Product Issue
+TKT-0059,Account
+TKT-0060,Refund
+TKT-0061,Refund
+TKT-0062,Product Issue
+TKT-0063,Other
+TKT-0064,Account
+TKT-0065,Product Issue
+TKT-0066,Other
+TKT-0067,Refund
+TKT-0068,Other
+TKT-0069,Product Issue
+TKT-0070,Product Issue
+TKT-0071,Delivery
+TKT-0072,Account
+TKT-0073,Refund
+TKT-0074,Other
+TKT-0075,Account
+TKT-0076,Product Issue
+TKT-0077,Delivery
+TKT-0078,Other
+TKT-0079,Account
+TKT-0080,Delivery
+TKT-0081,Product Issue
+TKT-0082,Account
+TKT-0083,Other
+TKT-0084,Other
+TKT-0085,Delivery
+TKT-0086,Product Issue
+TKT-0087,Account
+TKT-0088,Delivery
+TKT-0089,Account
+TKT-0090,Other
+TKT-0091,Product Issue
+TKT-0092,Product Issue
+TKT-0093,Account
+TKT-0094,Refund
+TKT-0095,Delivery
+TKT-0096,Account
+TKT-0097,Account
+TKT-0098,Product Issue
+TKT-0099,Product Issue
+TKT-0100,Other
+TKT-0101,Product Issue
+TKT-0102,Delivery
+TKT-0103,Delivery
+TKT-0104,Delivery
+TKT-0105,Refund
+TKT-0106,Product Issue
+TKT-0107,Delivery
+TKT-0108,Other
+TKT-0109,Product Issue
+TKT-0110,Account
+TKT-0111,Refund
+TKT-0112,Product Issue
+TKT-0113,Refund
+TKT-0114,Refund
+TKT-0115,Delivery
+TKT-0116,Refund
+TKT-0117,Refund
+TKT-0118,Other
+TKT-0119,Account
+TKT-0120,Product Issue
+TKT-0121,Delivery
+TKT-0122,Delivery
+TKT-0123,Product Issue
+TKT-0124,Product Issue
+TKT-0125,Delivery
+TKT-0126,Account
+TKT-0127,Refund
+TKT-0128,Delivery
+TKT-0129,Product Issue
+TKT-0130,Account
+TKT-0131,Product Issue
+TKT-0132,Delivery
+TKT-0133,Product Issue
+TKT-0134,Product Issue
+TKT-0135,Delivery
+TKT-0136,Refund
+TKT-0137,Other
+TKT-0138,Product Issue
+TKT-0139,Other
+TKT-0140,Other
+TKT-0141,Product Issue
+TKT-0142,Delivery
+TKT-0143,Product Issue
+TKT-0144,Delivery
+TKT-0145,Refund
+TKT-0146,Product Issue
+TKT-0147,Delivery
+TKT-0148,Account
+TKT-0149,Delivery
+TKT-0150,Other
+TKT-0151,Account
+TKT-0152,Delivery
+TKT-0153,Delivery
+TKT-0154,Other
+TKT-0155,Delivery
+TKT-0156,Delivery
+TKT-0157,Delivery
+TKT-0158,Delivery
+TKT-0159,Refund
+TKT-0160,Other
+TKT-0161,Account
+TKT-0162,Other
+TKT-0163,Delivery
+TKT-0164,Product Issue
+TKT-0165,Delivery
+TKT-0166,Account
+TKT-0167,Other
+TKT-0168,Other
+TKT-0169,Other
+TKT-0170,Other
+TKT-0171,Account
+TKT-0172,Refund
+TKT-0173,Account
+TKT-0174,Product Issue
+TKT-0175,Other
+TKT-0176,Account
+TKT-0177,Product Issue
+TKT-0178,Delivery
+TKT-0179,Account
+TKT-0180,Product Issue
+TKT-0181,Refund
+TKT-0182,Other
+TKT-0183,Delivery
+TKT-0184,Refund
+TKT-0185,Account
+TKT-0186,Delivery
+TKT-0187,Delivery
+TKT-0188,Other
+TKT-0189,Delivery
+TKT-0190,Delivery
+TKT-0191,Delivery
+TKT-0192,Account
+TKT-0193,Product Issue
+TKT-0194,Other
+TKT-0195,Account
+TKT-0196,Delivery
+TKT-0197,Refund
+TKT-0198,Product Issue
+TKT-0199,Other
+TKT-0200,Account
+TKT-0201,Account
+TKT-0202,Product Issue
+TKT-0203,Delivery
+TKT-0204,Product Issue
+TKT-0205,Other
+TKT-0206,Other
+TKT-0207,Other
+TKT-0208,Account
+TKT-0209,Other
+TKT-0210,Account
+TKT-0211,Other
+TKT-0212,Refund
+TKT-0213,Refund
+TKT-0214,Refund
+TKT-0215,Other
+TKT-0216,Account
+TKT-0217,Account
+TKT-0218,Product Issue
+TKT-0219,Other
+TKT-0220,Account
+TKT-0221,Account
+TKT-0222,Account
+TKT-0223,Account
+TKT-0224,Account
+TKT-0225,Refund
+TKT-0226,Other
+TKT-0227,Refund
+TKT-0228,Product Issue
+TKT-0229,Delivery
+TKT-0230,Other
+TKT-0231,Account
+TKT-0232,Delivery
+TKT-0233,Product Issue
+TKT-0234,Account
+TKT-0235,Product Issue
+TKT-0236,Product Issue
+TKT-0237,Refund
+TKT-0238,Other
+TKT-0239,Product Issue
+TKT-0240,Refund
+TKT-0241,Product Issue
+TKT-0242,Account
+TKT-0243,Other
+TKT-0244,Other
+TKT-0245,Account
+TKT-0246,Refund
+TKT-0247,Account
+TKT-0248,Account
+TKT-0249,Refund
+TKT-0250,Product Issue
+TKT-0251,Product Issue
+TKT-0252,Other
+TKT-0253,Delivery
+TKT-0254,Other
+TKT-0255,Refund
+TKT-0256,Account
+TKT-0257,Refund
+TKT-0258,Other
+TKT-0259,Product Issue
+TKT-0260,Refund
+TKT-0261,Refund
+TKT-0262,Account
+TKT-0263,Delivery
+TKT-0264,Account
+TKT-0265,Product Issue
+TKT-0266,Refund
+TKT-0267,Account
+TKT-0268,Other
+TKT-0269,Other
+TKT-0270,Refund
+TKT-0271,Account
+TKT-0272,Refund
+TKT-0273,Refund
+TKT-0274,Product Issue
+TKT-0275,Product Issue
+TKT-0276,Refund
+TKT-0277,Delivery
+TKT-0278,Account
+TKT-0279,Refund
+TKT-0280,Account
+TKT-0281,Delivery
+TKT-0282,Other
+TKT-0283,Refund
+TKT-0284,Product Issue
+TKT-0285,Account
+TKT-0286,Refund
+TKT-0287,Other
+TKT-0288,Delivery
+TKT-0289,Product Issue
+TKT-0290,Account
+TKT-0291,Refund
+TKT-0292,Product Issue
+TKT-0293,Other
+TKT-0294,Refund
+TKT-0295,Delivery
+TKT-0296,Account
+TKT-0297,Product Issue
+TKT-0298,Account
+TKT-0299,Other
+TKT-0300,Product Issue
+TKT-0301,Refund
+TKT-0302,Refund
+TKT-0303,Refund
+TKT-0304,Refund
+TKT-0305,Account
+TKT-0306,Delivery
+TKT-0307,Product Issue
+TKT-0308,Refund
+TKT-0309,Account
+TKT-0310,Product Issue
+TKT-0311,Account
+TKT-0312,Other
+TKT-0313,Other
+TKT-0314,Refund
+TKT-0315,Account
+TKT-0316,Account
+TKT-0317,Refund
+TKT-0318,Product Issue
+TKT-0319,Account
+TKT-0320,Other
+TKT-0321,Refund
+TKT-0322,Account
+TKT-0323,Delivery
+TKT-0324,Product Issue
+TKT-0325,Account
+TKT-0326,Delivery
+TKT-0327,Product Issue
+TKT-0328,Refund
+TKT-0329,Refund
+TKT-0330,Product Issue
+TKT-0331,Refund
+TKT-0332,Account
+TKT-0333,Delivery
+TKT-0334,Product Issue
+TKT-0335,Refund
+TKT-0336,Account
+TKT-0337,Account
+TKT-0338,Account
+TKT-0339,Account
+TKT-0340,Delivery
+TKT-0341,Account
+TKT-0342,Refund
+TKT-0343,Account
+TKT-0344,Delivery
+TKT-0345,Other
+TKT-0346,Delivery
+TKT-0347,Delivery
+TKT-0348,Delivery
+TKT-0349,Account
+TKT-0350,Refund
+TKT-0351,Delivery
+TKT-0352,Refund
+TKT-0353,Product Issue
+TKT-0354,Refund
+TKT-0355,Refund
+TKT-0356,Delivery
+TKT-0357,Other
+TKT-0358,Other
+TKT-0359,Delivery
+TKT-0360,Refund
+TKT-0361,Other
+TKT-0362,Product Issue
+TKT-0363,Delivery
+TKT-0364,Delivery
+TKT-0365,Other
+TKT-0366,Product Issue
+TKT-0367,Product Issue
+TKT-0368,Account
+TKT-0369,Other
+TKT-0370,Refund
+TKT-0371,Refund
+TKT-0372,Refund
+TKT-0373,Delivery
+TKT-0374,Product Issue
+TKT-0375,Delivery
+TKT-0376,Delivery
+TKT-0377,Refund
+TKT-0378,Product Issue
+TKT-0379,Product Issue
+TKT-0380,Account
+TKT-0381,Product Issue
+TKT-0382,Product Issue
+TKT-0383,Product Issue
+TKT-0384,Account
+TKT-0385,Account
+TKT-0386,Other
+TKT-0387,Delivery
+TKT-0388,Account
+TKT-0389,Product Issue
+TKT-0390,Product Issue
+TKT-0391,Account
+TKT-0392,Other
+TKT-0393,Other
+TKT-0394,Product Issue
+TKT-0395,Other
+TKT-0396,Other
+TKT-0397,Product Issue
+TKT-0398,Other
+TKT-0399,Refund
+TKT-0400,Refund

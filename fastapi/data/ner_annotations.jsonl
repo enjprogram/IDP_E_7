@@ -1,0 +1,50 @@
+{"ticket_id": "TKT-0001", "text": "Hi team, I can't log into my account. It says my password is incorrect. Thanks.", "entities": []}
+{"ticket_id": "TKT-0002", "text": "The phone case arrived scratched. I want a replacement for order ORD-13909960.", "entities": [{"label": "ORDER_ID", "start": 65, "end": 77, "text": "ORD-13909960"}]}
+{"ticket_id": "TKT-0003", "text": "Where can I find your size guide for water bottle?", "entities": []}
+{"ticket_id": "TKT-0004", "text": "Hi team, Please help me reset my password. I no longer have access to my email sam130@company.co.uk.", "entities": [{"label": "EMAIL", "start": 79, "end": 99, "text": "sam130@company.co.uk"}]}
+{"ticket_id": "TKT-0005", "text": "I want to update my email address on my account to sam977@inbox.com. You can reach me at morgan672@company.co.uk.", "entities": [{"label": "EMAIL", "start": 51, "end": 67, "text": "sam977@inbox.com"}, {"label": "EMAIL", "start": 89, "end": 112, "text": "morgan672@company.co.uk"}]}
+{"ticket_id": "TKT-0006", "text": "I cancelled ORD-65075291 but I still see a pending charge.", "entities": [{"label": "ORDER_ID", "start": 12, "end": 24, "text": "ORD-65075291"}]}
+{"ticket_id": "TKT-0007", "text": "Hi team, I returned laptop stand from order ORD-76842684 on 2025-11-27. When will I get my refund?", "entities": [{"label": "ORDER_ID", "start": 44, "end": 56, "text": "ORD-76842684"}, {"label": "DATE", "start": 60, "end": 70, "text": "2025-11-27"}]}
+{"ticket_id": "TKT-0008", "text": "The water bottle I received from order ORD-92440268 is faulty. It won't turn on.", "entities": [{"label": "ORDER_ID", "start": 39, "end": 51, "text": "ORD-92440268"}]}
+{"ticket_id": "TKT-0009", "text": "Where can I find your size guide for coffee grinder? Thanks. You can reach me at jordan559@example.com.", "entities": [{"label": "EMAIL", "start": 81, "end": 102, "text": "jordan559@example.com"}]}
+{"ticket_id": "TKT-0010", "text": "Please help me reset my password. I no longer have access to my email sam128@company.co.uk.", "entities": [{"label": "EMAIL", "start": 70, "end": 90, "text": "sam128@company.co.uk"}]}
+{"ticket_id": "TKT-0011", "text": "Can you update me on shipping for order ORD-21547280? It's been 19 days.", "entities": [{"label": "ORDER_ID", "start": 40, "end": 52, "text": "ORD-21547280"}]}
+{"ticket_id": "TKT-0012", "text": "My refund for ORD-85253888 is taking too long. Can you check?", "entities": [{"label": "ORDER_ID", "start": 14, "end": 26, "text": "ORD-85253888"}]}
+{"ticket_id": "TKT-0013", "text": "Please help me reset my password. I no longer have access to my email taylor114@mail.com.", "entities": [{"label": "EMAIL", "start": 70, "end": 88, "text": "taylor114@mail.com"}]}
+{"ticket_id": "TKT-0014", "text": "The size/fit of the yoga mat is wrong\u2014what are my options? Order ORD-07511637. You can reach me at jordan184@mail.com.", "entities": [{"label": "ORDER_ID", "start": 65, "end": 77, "text": "ORD-07511637"}, {"label": "EMAIL", "start": 99, "end": 117, "text": "jordan184@mail.com"}]}
+{"ticket_id": "TKT-0015", "text": "My order ORD-29729975 was supposed to arrive on 2026-02-06 but it hasn't shown up.", "entities": [{"label": "ORDER_ID", "start": 9, "end": 21, "text": "ORD-29729975"}, {"label": "DATE", "start": 48, "end": 58, "text": "2026-02-06"}]}
+{"ticket_id": "TKT-0016", "text": "Please refund order ORD-30434839. The item arrived damaged.", "entities": [{"label": "ORDER_ID", "start": 20, "end": 32, "text": "ORD-30434839"}]}
+{"ticket_id": "TKT-0017", "text": "The running shoes doesn't match the description. Order ORD-68282880.", "entities": [{"label": "ORDER_ID", "start": 55, "end": 67, "text": "ORD-68282880"}]}
+{"ticket_id": "TKT-0018", "text": "I can't log into my account. It says my password is incorrect.", "entities": []}
+{"ticket_id": "TKT-0019", "text": "The size/fit of the phone case is wrong\u2014what are my options? Order ORD-89834788. Thanks.", "entities": [{"label": "ORDER_ID", "start": 67, "end": 79, "text": "ORD-89834788"}]}
+{"ticket_id": "TKT-0020", "text": "Two-factor code isn't arriving to my email\u2014can you help?", "entities": []}
+{"ticket_id": "TKT-0021", "text": "Hi team, My account seems locked after too many attempts. Can you unlock it?", "entities": []}
+{"ticket_id": "TKT-0022", "text": "My order ORD-65894811 was supposed to arrive on 2025-10-31 but it hasn't shown up. Thanks.", "entities": [{"label": "ORDER_ID", "start": 9, "end": 21, "text": "ORD-65894811"}, {"label": "DATE", "start": 48, "end": 58, "text": "2025-10-31"}]}
+{"ticket_id": "TKT-0023", "text": "I want to update my email address on my account to riley926@example.com. Thanks. You can reach me at morgan95@mail.com.", "entities": [{"label": "EMAIL", "start": 51, "end": 71, "text": "riley926@example.com"}, {"label": "EMAIL", "start": 101, "end": 118, "text": "morgan95@mail.com"}]}
+{"ticket_id": "TKT-0024", "text": "Hi team, Can you update me on shipping for order ORD-41705864? It's been 7 days.", "entities": [{"label": "ORDER_ID", "start": 49, "end": 61, "text": "ORD-41705864"}]}
+{"ticket_id": "TKT-0025", "text": "I cancelled ORD-83478245 but I still see a pending charge.", "entities": [{"label": "ORDER_ID", "start": 12, "end": 24, "text": "ORD-83478245"}]}
+{"ticket_id": "TKT-0026", "text": "Hi team, Where can I find your size guide for running shoes?", "entities": []}
+{"ticket_id": "TKT-0027", "text": "I want to update my email address on my account to jordan171@inbox.com.", "entities": [{"label": "EMAIL", "start": 51, "end": 70, "text": "jordan171@inbox.com"}]}
+{"ticket_id": "TKT-0028", "text": "Hi team, Missing parts in my coffee grinder package from order ORD-53043520. You can reach me at sam157@company.co.uk.", "entities": [{"label": "ORDER_ID", "start": 63, "end": 75, "text": "ORD-53043520"}, {"label": "EMAIL", "start": 97, "end": 117, "text": "sam157@company.co.uk"}]}
+{"ticket_id": "TKT-0029", "text": "Hi team, The water bottle arrived scratched. I want a replacement for order ORD-06044319.", "entities": [{"label": "ORDER_ID", "start": 76, "end": 88, "text": "ORD-06044319"}]}
+{"ticket_id": "TKT-0030", "text": "Hi team, Tracking for ORD-86828890 says delivered but I can't find the package.", "entities": [{"label": "ORDER_ID", "start": 22, "end": 34, "text": "ORD-86828890"}]}
+{"ticket_id": "TKT-0031", "text": "Two-factor code isn't arriving to my email\u2014can you help? Thanks.", "entities": []}
+{"ticket_id": "TKT-0032", "text": "I have a question about your warranty policy for water bottle.", "entities": []}
+{"ticket_id": "TKT-0033", "text": "The size/fit of the desk lamp is wrong\u2014what are my options? Order ORD-92070741. Thanks.", "entities": [{"label": "ORDER_ID", "start": 66, "end": 78, "text": "ORD-92070741"}]}
+{"ticket_id": "TKT-0034", "text": "Hi team, Please refund order ORD-41704718. The item arrived damaged.", "entities": [{"label": "ORDER_ID", "start": 29, "end": 41, "text": "ORD-41704718"}]}
+{"ticket_id": "TKT-0035", "text": "My package for ORD-98415377 keeps showing 'in transit'\u2014what's going on?", "entities": [{"label": "ORDER_ID", "start": 15, "end": 27, "text": "ORD-98415377"}]}
+{"ticket_id": "TKT-0036", "text": "My account seems locked after too many attempts. Can you unlock it?", "entities": []}
+{"ticket_id": "TKT-0037", "text": "Please help me reset my password. I no longer have access to my email taylor801@inbox.com. You can reach me at riley945@mail.com.", "entities": [{"label": "EMAIL", "start": 70, "end": 89, "text": "taylor801@inbox.com"}, {"label": "EMAIL", "start": 111, "end": 128, "text": "riley945@mail.com"}]}
+{"ticket_id": "TKT-0038", "text": "I have a question about your warranty policy for running shoes.", "entities": []}
+{"ticket_id": "TKT-0039", "text": "Do you ship internationally to France?", "entities": []}
+{"ticket_id": "TKT-0040", "text": "How do I apply a discount code at checkout? You can reach me at riley402@company.co.uk.", "entities": [{"label": "EMAIL", "start": 64, "end": 86, "text": "riley402@company.co.uk"}]}
+{"ticket_id": "TKT-0041", "text": "I have a question about your warranty policy for running shoes.", "entities": []}
+{"ticket_id": "TKT-0042", "text": "Hi team, I cancelled ORD-02067970 but I still see a pending charge. Thanks.", "entities": [{"label": "ORDER_ID", "start": 21, "end": 33, "text": "ORD-02067970"}]}
+{"ticket_id": "TKT-0043", "text": "The courier left my parcel in a safe place but it's missing. Order ORD-71800239. Thanks. You can reach me at taylor407@inbox.com.", "entities": [{"label": "ORDER_ID", "start": 67, "end": 79, "text": "ORD-71800239"}, {"label": "EMAIL", "start": 109, "end": 128, "text": "taylor407@inbox.com"}]}
+{"ticket_id": "TKT-0044", "text": "I was charged twice for order ORD-90084745. I need a refund. You can reach me at jamie916@company.co.uk.", "entities": [{"label": "ORDER_ID", "start": 30, "end": 42, "text": "ORD-90084745"}, {"label": "EMAIL", "start": 81, "end": 103, "text": "jamie916@company.co.uk"}]}
+{"ticket_id": "TKT-0045", "text": "Can you update me on shipping for order ORD-43653705? It's been 16 days.", "entities": [{"label": "ORDER_ID", "start": 40, "end": 52, "text": "ORD-43653705"}]}
+{"ticket_id": "TKT-0046", "text": "Please refund order ORD-43373441. The item arrived damaged. Thanks.", "entities": [{"label": "ORDER_ID", "start": 20, "end": 32, "text": "ORD-43373441"}]}
+{"ticket_id": "TKT-0047", "text": "My account seems locked after too many attempts. Can you unlock it? Thanks.", "entities": []}
+{"ticket_id": "TKT-0048", "text": "I have a question about your warranty policy for coffee grinder. Thanks.", "entities": []}
+{"ticket_id": "TKT-0049", "text": "Hi team, Please refund order ORD-65461073. The item arrived damaged.", "entities": [{"label": "ORDER_ID", "start": 29, "end": 41, "text": "ORD-65461073"}]}
+{"ticket_id": "TKT-0050", "text": "How do I apply a discount code at checkout?", "entities": []}
